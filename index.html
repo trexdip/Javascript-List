@@ -16,9 +16,25 @@
 
 </head>
 <body>
-<input type="text" placeholder="Type Here" id="list">
+<!--<input type="text" placeholder="Type Here" id="list">
 <br>
 <button class="btn btn-primary" onclick="myList()">Submit</button>
+!-->
+<ul>
+	<li>one</li>
+	<li>two</li>
+	<li>three</li>
+	<li>four</li>
+</ul>
+	<script>
+		$(document).ready(function(){
+
+			$("li").click(function(){
+					$(this).hide(this)
+			});
+
+		});
+	</script>
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

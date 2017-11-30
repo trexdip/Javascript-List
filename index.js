@@ -1,4 +1,4 @@
-function myList()
+/*function myList()
 {
 	createUl()
 }
@@ -12,8 +12,10 @@ function createUl()
 	document.body.appendChild(unorderedList)
 
 	var listItems= document.createElement('LI')
+	listItems.setAttribute('id','two')
 	var listItem= document.createTextNode(item)
 	listItems.appendChild(listItem)
 
 	document.getElementById('unorderedListA').appendChild(listItems)
 }
+*/
